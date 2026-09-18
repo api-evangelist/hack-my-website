@@ -1,0 +1,99 @@
+name: Hack My Website
+description: Automated web-application security scanner that runs 200+ checks across DAST (OWASP ZAP),
+  CVE exploit templates (Nuclei), static analysis (Semgrep/SAST), and SaaS-misconfiguration checks, producing
+  a 0-100 AI Launch Score with go/no-go readiness bands and 1-click AI remediation fix prompts for Cursor,
+  Claude Code, and Windsurf. Built by Aivi Labs for teams shipping sites made with AI coding tools (Lovable,
+  Bolt, v0, Cursor, Claude Code); currently early-access/waitlist with no public developer API.
+url: https://raw.githubusercontent.com/api-evangelist/hack-my-website-automated-website-security-scanner/refs/heads/main/apis.yml
+created: '2026-09-18'
+modified: '2026-09-18'
+specificationVersion: '0.21'
+tags:
+- Application Security
+- Web Security
+- Vulnerability Scanning
+- DAST
+- SAST
+- Cybersecurity
+- AppSec
+- DevSecOps
+- AI Remediation
+- SaaS
+apis:
+- name: Hack My Website
+  description: Automated website security scanner. Only an agent-native surface (llms.txt) is publicly
+    declared; no conventional API contract (OpenAPI/GraphQL/AsyncAPI/gRPC/SOAP) is published. The app's
+    own backend (/api) is private, robots-disallowed, and serves no OpenAPI.
+  humanURL: https://hackmywebsite.io
+  baseURL: https://hackmywebsite.io
+  tags:
+  - Application Security
+  - Web Security
+  - Vulnerability Scanning
+  - DAST
+  - SAST
+  - Cybersecurity
+  - AppSec
+  - DevSecOps
+  - AI Remediation
+  - SaaS
+  properties:
+  - type: LLMsTxt
+    url: llms/hack-my-website-llms.txt
+  - type: LLMsTxt
+    url: https://hackmywebsite.io/llms.txt
+  - type: Documentation
+    url: https://hackmywebsite.io/how-it-works
+  - type: Documentation
+    url: https://hackmywebsite.io/methodology
+common:
+- type: Website
+  url: https://hackmywebsite.io
+- type: Documentation
+  url: https://hackmywebsite.io/how-it-works
+- type: SignUp
+  url: https://hackmywebsite.io/signup
+- type: Login
+  url: https://hackmywebsite.io/login
+- type: Support
+  url: mailto:support@hackmywebsite.io
+- type: PrivacyPolicy
+  url: https://hackmywebsite.io/privacy-policy
+- type: TermsOfService
+  url: https://hackmywebsite.io/terms-and-conditions
+- type: Pricing
+  url: https://hackmywebsite.io
+- type: Plans
+  url: plans/hack-my-website-plans-pricing.yml
+- type: DomainSecurity
+  url: security/hack-my-website-domain-security.yml
+maintainers:
+- FN: Hack My Website
+  email: support@hackmywebsite.io
+  url: https://hackmywebsite.io/
+generated:
+  by: apis.io/add
+  model: claude-opus-4-8
+  confidence: 55
+  at: '2026-09-18T15:55:22.076Z'
+aid: hack-my-website
+x-enrichment:
+  date: '2026-09-18'
+  status: minimal
+  artifacts_added: 4
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Hack My Website (by Aivi Labs) ships an end-user SaaS security scanner in early-access/waitlist;
+    its only public API path (/api) is a private, robots-disallowed app backend that serves no OpenAPI,
+    and no developer portal, SDK, webhooks or machine-readable contract is published anywhere.
+  evidence:
+  - url: https://hackmywebsite.io/api/openapi.json
+    status: 404
+  - url: https://hackmywebsite.io/openapi.json
+    status: 404
+  - url: https://hackmywebsite.io/robots.txt
+    status: 200
+  checked: '2026-09-18'

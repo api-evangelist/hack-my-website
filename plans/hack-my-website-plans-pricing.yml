@@ -1,0 +1,56 @@
+generated: '2026-09-18'
+method: searched
+source: https://hackmywebsite.io/llms.txt
+note: >-
+  Pricing is provider-published in llms.txt and mirrored on the homepage
+  (₹1,999 / ₹2,999 / ₹4,999 tiers confirmed at https://hackmywebsite.io/).
+  Prices are in Indian Rupees. This is an end-user SaaS product priced per
+  website/scan volume, not a metered developer API; there is no public API plan.
+  The homepage also shows a ₹0 promotional entry (early-access/waitlist) not
+  itemized as a named tier in llms.txt.
+currency: INR
+billing_period: month
+plan_count: 4
+plans:
+- name: Starter
+  price: 1999
+  currency: INR
+  billing_period: month
+  quota:
+    websites: 1
+    scans_per_month: 3
+  features:
+  - Manual AI Launch Score
+  - PDF report download
+- name: Pro
+  price: 2999
+  currency: INR
+  billing_period: month
+  quota:
+    websites: 3
+    scans_per_month: 30
+  features:
+  - Weekly launch monitoring
+  - PDF report download
+- name: Agency
+  price: 4999
+  currency: INR
+  billing_period: month
+  quota:
+    websites: 10
+    scans_per_month: 150
+  features:
+  - Weekly launch monitoring
+  - White-labeled PDF reports
+- name: Custom
+  price: null
+  currency: INR
+  billing_period: null
+  quota:
+    websites: null
+    scans_per_month: null
+  features:
+  - Tailored website limits
+  - Higher scan volumes
+  - Priority support
+  note: Contact Sales (custom plan requests via https://hackmywebsite.io/contact)

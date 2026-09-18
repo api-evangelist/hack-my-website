@@ -1,0 +1,43 @@
+generated: '2026-09-18'
+method: probed
+source: live probes of /.well-known/* on every host this record knows
+note: >-
+  Every /.well-known/ path returned 404 on both the primary host (hackmywebsite.io)
+  and the product's canonical alias host (hmw.aivilabs.com, which 301s to
+  hackmywebsite.io). No WellKnown or SecurityTxt pointer is emitted because the
+  provider serves none of these documents. Recorded absence is valid data.
+hosts:
+- host: hackmywebsite.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: hmw.aivilabs.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
