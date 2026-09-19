@@ -18,6 +18,17 @@ tags:
 - AppSec
 - DevSecOps
 - AI Remediation
+- Software-as-a-Service
+tags_raw:
+- Application Security
+- Web Security
+- Vulnerability Scanning
+- DAST
+- SAST
+- Cybersecurity
+- AppSec
+- DevSecOps
+- AI Remediation
 - SaaS
 apis:
 - name: Hack My Website
@@ -27,6 +38,17 @@ apis:
   humanURL: https://hackmywebsite.io
   baseURL: https://hackmywebsite.io
   tags:
+  - Application Security
+  - Web Security
+  - Vulnerability Scanning
+  - DAST
+  - SAST
+  - Cybersecurity
+  - AppSec
+  - DevSecOps
+  - AI Remediation
+  - Software-as-a-Service
+  tags_raw:
   - Application Security
   - Web Security
   - Vulnerability Scanning
