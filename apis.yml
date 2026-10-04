@@ -36,7 +36,6 @@ apis:
     declared; no conventional API contract (OpenAPI/GraphQL/AsyncAPI/gRPC/SOAP) is published. The app's
     own backend (/api) is private, robots-disallowed, and serves no OpenAPI.
   humanURL: https://hackmywebsite.io
-  baseURL: https://hackmywebsite.io
   tags:
   - Application Security
   - Web Security
